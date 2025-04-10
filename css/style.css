@@ -112,11 +112,31 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    footer {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+
     .footer-container {
         flex-direction: column;
         align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 8px;
+    }
+
+    .footer-links a {
+        font-size: 0.9rem;
+        white-space: nowrap;
     }
 }
+
+
 
 .logo {
     width: 40px;
